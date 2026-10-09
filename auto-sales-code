@@ -3550,7 +3550,7 @@ function setupFocusTransparency(overlay) {
 //  TIMER DE MUTE (widget flutuante) — ativável/desativável nas configurações
 // ══════════════════════════════════════════════════════════════════════
 const MuteTimer = (function () {
-  const DEFAULT_SECONDS = 90;
+  const DEFAULT_SECONDS = 120;
   const STATE_KEY = "muteTimerState";
 
   let widget = null, dragHandle, displayEl, minimizedDisplayEl, toggleBtn, resetBtn, statusDot;
